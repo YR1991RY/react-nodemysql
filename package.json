@@ -1,0 +1,40 @@
+{
+  "name": "@nodegui/react-nodegui",
+  "version": "0.1.9",
+  "description": "React Native for building cross platform desktop applications",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Atul R <atulanand94@gmail.com>",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodegui/react-nodegui.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && qode ./dist/demo.js",
+    "docs": "typedoc"
+  },
+  "dependencies": {
+    "react-reconciler": "^0.21.0"
+  },
+  "peerDependencies": {
+    "@nodegui/nodegui": "*",
+    "@nodegui/qode": "*",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@nodegui/nodegui": "^0.2.1",
+    "@types/node": "^12.0.10",
+    "@types/react-reconciler": "^0.18.0",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-markdown": "^2.2.7",
+    "typescript": "^3.5.2"
+  }
+}
